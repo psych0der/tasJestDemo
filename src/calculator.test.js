@@ -45,7 +45,7 @@ test('adding should should detect odd number--', () => {
 
 test('new added', () => {
     const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
+    const result = 10 % 2;
     expect(result).toBe(0);
 });
 
