@@ -8,7 +8,6 @@ test("Returns about-us for spanish language", () => {
     expect(getAboutUsLink(process.env.GLOAR_VARIABLE)).toBe("/acerca-de");
 });
 
-
 // test.todo('Skip a test');
 test.skip("Skip a test", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
@@ -40,7 +39,12 @@ test("Added by arjun", () => {
 
 test('adding should should detect odd number--', () => {
     const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
+    const result = 11 % 2;
+    expect(result).toBe(1);
+});
+
+test('new added', () => {
+    const result = 11 % 2;
     expect(result).toBe(1);
 });
 
