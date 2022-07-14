@@ -37,23 +37,23 @@ test("Added by arjun", () => {
     expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
 });
 
-test('adding should should detect odd number--', () => {
-    const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
-    expect(result).toBe(0);
-});
+// test('adding should should detect odd number--', () => {
+//     const number = Math.floor(Math.random() * 10);
+//     const result = number % 2;
+//     expect(result).toBe(0);
+// });
 
-test('new added', () => {
-    const number = Math.floor(Math.random() * 10);
-    const result = 10 % 2;
-    expect(result).toBe(0);
-});
+// test('new added', () => {
+//     const number = Math.floor(Math.random() * 10);
+//     const result = 10 % 2;
+//     expect(result).toBe(0);
+// });
 
-test('new adding should should detect odd number--', () => {
-    const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
-    expect(result).toBe(0);
-});
+// test('new adding should should detect odd number--', () => {
+//     const number = Math.floor(Math.random() * 10);
+//     const result = number % 2;
+//     expect(result).toBe(0);
+// });
 
 
 
