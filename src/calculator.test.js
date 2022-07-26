@@ -38,11 +38,11 @@ test("Added by arjun", () => {
     expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
 });
 
-test('adding should should detect odd number--', () => {
-    const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
-    expect(result).toBe(1);
-});
+// test('adding should should detect odd number--', () => {
+//     const number = Math.floor(Math.random() * 10);
+//     const result = number % 2;
+//     expect(result).toBe(1);
+// });
 
 test('new added', () => {
     const result = 11 % 2;
